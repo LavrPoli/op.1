@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 200px 200px;
+}
+
+.grid > div :nth-child(header_elem) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.header_elem-li > ul {
+  list-style-type: none;
+}
+
+.footer_elem-img:hover {
+  border-radius: 30px;
+  box-shadow: 50px;
+}
